@@ -1,0 +1,14 @@
+# ignore .idea
+.idea
+
+# ignore .idea_copy except workspace.xml
+.idea_copy/**
+!/.idea_copy/workspace.xml
+
+# ignore application-local.properties
+application-local.properties
+
+# ignore build folder and *.jar-files except module2.jar
+build/**
+*.jar
+!module2.jar
